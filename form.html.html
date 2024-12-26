@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORM</title>
+</head>
+<body>
+  <fieldset style="background-color: #a3a69d;"  >
+  <legend style="background-color: rgba(189, 220, 193, 0.925);"><h2>REGISTRATION FORM</h2></legend>
+  <form action="./welcome.html">
+    Full Name: <input required type="text" placeholder="Full Name"> Last Name: <input placeholder="Last Name" type="text"></br></br>
+    Date of Brith: <input type="date">Age: <input placeholder="Age" type="number"></br></br>
+    Gender: <select>
+      <option>Male</option>
+      <option>Female</option>
+    </select>
+    Email: <input required type="email" placeholder="Enter Email Address" id="email"></br></br>
+   Position Available: 
+   <input type="radio" name="Gender" id="junior Developer"><label>Junior Developer</label>
+   <input type="radio" name="Gender" id="Mid-level Developer"><label>Mid-level Developer</label>
+   <input type="radio" name="Gender" id="Senior Developer"><label>Senior Developer</label></br></br>
+    Programming Language: <input type="checkbox"><label>Java</label>
+    <input type="checkbox"><label>JavaScript</label>
+    <input type="checkbox"><label>Python</label></br></br>
+    Password: <input required type="password" maxlength="6" id="password" placeholder="Password">
+    Confirm Password: <input required type="password" maxlength="6" id="password" placeholder="Confirm Password"></br></br>
+    <input type="submit"> 
+    <input type="reset">
+  </form>
+</fieldset>
+</body>
+</html>
